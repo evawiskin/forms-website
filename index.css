@@ -10,15 +10,8 @@ body { background-color: purple; }
         h2 { color: #03C03C; }
         p1  { color: gold; }
 
-table, th, td {
-            border: 1px solid black;
-        }
-
-        th { background-color: #FF00FF; }
-        table { width: 50%; }
-
         .notice {
-            background-color: pink;
+            background-color: orange;
             border: 3px solid #444;
             padding: 1rem;
             margin: 2rem 0;
@@ -50,28 +43,14 @@ table, th, td {
         padding: 1em;
         margin: 1em;
         border-radius: 3px;
-}
-
-        .highlight {
-        box-shadow: 0 0 10px rgba(0,0,0,0.6);
         }
 
-        .card:hover {
-        background-color: #ddc;
-        }
-
-        .branding {
-        display: block;       
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 0.5em;
-        }
-
-        .important {
-        color: red;
-        font-weight: bold;
-        }
+        
 
         .button {
             background-color: #C3B1E1;
+            text-align: center
+            padding 5px;
         }
+
+        
