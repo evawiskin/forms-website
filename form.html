@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css"
+    <title>Feedback</title>
+</head>
+
+<bodies>
+
+<h1>Website Feedback</h1>
+
+<form action="show-action.php" method="POST">
+
+    <p>
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+    </p>
+
+    <p>
+        <label>Which section did you like most?</label><br>
+        <input type="radio" name="favourite_section" value="facts"> My  5 Facts  
+        <input type="radio" name="favourite_section" value="table"> My  5 Interests  
+        <input type="radio" name="favourite_section" value="sports"> My  5 Sports  
+    </p>
+
+    <p>
+        <label for="rating">Rate my website (1-10):</label><br>
+        <input type="number" name="rating" id="rating" min="1" max="10">
+    </p>
+
+    <p>
+        <label for="improve">What could I improve?</label><br>
+        <textarea name="improve" id="improve" rows="4" cols="40"></textarea>
+    </p>
+
+    <p>
+        <label>Would you visit again?</label><br>
+        <input type="radio" name="again" value="yes"> Yes  
+        <input type="radio" name="again" value="no"> No  
+    </p>
+
+    <br>
+    <input type="submit" value="Submit Feedback">
+
+</form>
+
+</bodies>
+</html>
